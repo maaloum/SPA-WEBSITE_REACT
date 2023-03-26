@@ -1,0 +1,43 @@
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 3rem;
+    gap:50px;
+    font-family: 'Playfair' sans-serif;
+    height: 550px;
+    margin-top: 100px;
+}
+.cartItem{
+    width: 300px;
+    height: 400px;
+    cursor: pointer;
+}
+
+img{
+    padding-bottom:12px;
+}
+
+.title{
+    color: #141414;
+    font-size: 1rem;
+}
+
+.readMore{
+    border: 1px solid #5C8629;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    color: #141414;
+    margin-top: 3rem;
+}
+
+.readMore:hover{
+    background-color: #d22222;
+    color: #fff ;
+}
+
+.description{
+    padding-top: 10px;
+    width: 250px;
+    height: 100px;
+}

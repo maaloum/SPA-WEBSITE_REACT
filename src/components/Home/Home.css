@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Playfair' sans-serif;
+}
+.imgbackground{
+    height: 500px;
+    width: 100%;
+    border-radius: 0px;
+
+}
+
+.content{
+    font-family: 'Playfair', sans-serif;
+    width: 350px;
+    margin-left: 200px;
+    
+}
+
+.secondery{
+    font-family: 'Manrope', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.reservationbtn{
+    background-color: #5c8692 ;
+    border: 5px;
+    text-align: center;
+    color: #fff;
+    padding: 10px;
+    width: 180px;
+}
+
+.reservationbtn:hover{
+    background-color: #d22222;
+    color: #fff ;
+}
