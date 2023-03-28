@@ -1,24 +1,57 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Playfair' sans-serif;
+
+:root{
+
+    --navy: #5C8692;
+    --light-navy: #7A9CA5;
+    --dark: #141414;
+    --white: #fff;
+    --red: #d22222;
+    font-family: 'Playfair', sans-serif;
 }
 
-.phone{
-    color: #5C8692 ;
+
+.navbar{
+    background-color: var(white);
+    color: var(--dark);
 }
 
+.navbar-nav .nav-item .nav-link:hover,
+  .nav-item .nav-link:focus{
+    color: var(--red);
+}
+
+.icon{
+    color: var(--dark);
+    padding: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.icon:hover{
+    color: var(--red);
+}
 .reservation{
-    background-color: #7A9CA5 ;
+    background-color: var(--navy) ;
     border: 5px;
     text-align: center;
-    color: #fff;
+    color: var(--white);
     padding: 7px;
     width: 150px;
 }
 
+.phone{
+    color: var(--navy);
+    padding: 7px;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
 .reservation:hover{
-    background-color: #d22222;
+    background-color: var(--red);
     color: #fff ;
+} 
+
+.navbar .navbar-toggler:focus{
+    outline: none;
+    box-shadow: none;
 }
